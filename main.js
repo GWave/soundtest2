@@ -7,7 +7,7 @@ var fileDur, theMedia, theTimer;
 
 function init() {
   alert("Init");
-  var fileName = "http://mcnell.fatcow.com/files/hope.m4a ";
+  var fileName = "audio/sound.mp3";
   console.log(fileName);
   //Create the media object we need to do everything we need here
   theMedia = new Media(fileName, onMediaSuccess, onMediaError, onMediaStatus);
